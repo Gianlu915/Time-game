@@ -14,3 +14,43 @@ body {
   min-height: 100vh;
 }
 
+#content {
+  max-width: 60rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: radial-gradient(#0b201d, #021619);
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+h1{
+  text-align: center;
+}
+
+h1 em {
+  font-style: normal;
+  color: #00eeff;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: center;
+  color: #c6f4f2;
+}
+
+#player {
+  text-align: center;
+}
+
+#player h2 {
+  color: #54a399;
+}
+
+#player p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
